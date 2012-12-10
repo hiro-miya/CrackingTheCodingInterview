@@ -2,12 +2,12 @@
 # encoding: UTF-8
 
 require 'rspec'
-require '../src/problem1_2'
+require '../src/problem1_3'
 
-describe Problem1_2 do
+describe Problem1_3 do
 
     before :each do
-        @target = Problem1_2.new
+        @target = Problem1_3.new
     end
 
     it 'nil, nilを渡すと true が返却されること' do

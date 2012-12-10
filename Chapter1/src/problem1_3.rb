@@ -1,8 +1,13 @@
 #!/usr/bin/env ruby
 # encoding: UTF-8
 
-class Problem1_2
+class Problem1_3
 
+=begin
+    1.3
+    2つの文字列が与えられたとき、片方がもう片方の並び替えに
+    なっているかどうかを決定するメソッドを書いてください。
+=end
     def isAnagram(word1, word2)
         if word1 == nil && word2 == nil
             return true
