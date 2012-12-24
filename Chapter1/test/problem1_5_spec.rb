@@ -19,7 +19,7 @@ describe Problem1_5 do
     end
 
     it '引数が 圧縮後の文字列より長い なら 圧縮後の文字列 が返却されること' do
-        @target.compact('aabcccccaaa').should == 'a2b1c5a3'
+        @target.compact('aabccccccccccaaa').should == 'a2b1c10a3'
     end
 
     it '引数が 圧縮後の文字列より短い なら 引数 が返却されること' do
