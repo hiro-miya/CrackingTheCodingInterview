@@ -12,7 +12,7 @@ class Problem1_5
 
     def compact(str)
         return nil unless str
-        return str if str.empty? || str.length < str.squeeze.length * 2
+        return str if str.empty? 
         
         last = str[0]
         edited = ''
